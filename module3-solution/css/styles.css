@@ -1,19 +1,24 @@
 /* Tall section styling */
 .tall-section {
-  background-color: #999999;
+  background-color: #999999;  /* Light gray background */
   padding: 15px;
   margin: 15px;
-  /* Either fill with text OR set height */
-  height: 1000px; /* Makes it tall enough to force scrolling */
-  overflow: auto;
+  height: 1000px;  /* Makes it tall enough to force scrolling */
+  overflow: auto;  /* Adds scrollbar if content overflows */
 }
 
-/* Optional: Style for mobile dropdown menu */
+/* Style for mobile dropdown menu items */
 #collapsable-nav ul li a {
-  background-color: #e7e7e7;
+  background-color: #e7e7e7;  /* Light gray background */
   border-bottom: 1px solid #ddd;
+  color: #333;
 }
 
 #collapsable-nav ul li:last-child a {
-  border-bottom: none;
+  border-bottom: none;  /* Remove border from last item */
+}
+
+/* Optional: Make the menu items stand out */
+#collapsable-nav ul li a:hover {
+  background-color: #d4d4d4;  /* Slightly darker on hover */
 }
