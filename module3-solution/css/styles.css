@@ -1,1 +1,19 @@
+/* Tall section styling */
+.tall-section {
+  background-color: #999999;
+  padding: 15px;
+  margin: 15px;
+  /* Either fill with text OR set height */
+  height: 1000px; /* Makes it tall enough to force scrolling */
+  overflow: auto;
+}
 
+/* Optional: Style for mobile dropdown menu */
+#collapsable-nav ul li a {
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #ddd;
+}
+
+#collapsable-nav ul li:last-child a {
+  border-bottom: none;
+}
